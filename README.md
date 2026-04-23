@@ -1,16 +1,207 @@
-# React + Vite
+# 🎯 Quiz App (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and responsive **Quiz Application** built using **React.js** and **Tailwind CSS**.
+This app features a timer-based quiz system with smooth UI and real-time score tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ⏱ **5 seconds per question**
+* 🔄 Automatically moves to next question if time runs out
+* ✅ Score tracking system
+* ❌ Quiz ends after **3 consecutive unanswered questions**
+* 🎨 Modern UI with Tailwind CSS
+* ⚡ Smooth animations and responsive design
+* 🏁 Final result screen
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* ⚡ Vite
+
+---
+
+## 📸 Screenshots
+
+# 🎯 Quiz App (React + Tailwind CSS)
+
+An interactive and responsive **Quiz Application** built using **React.js** and **Tailwind CSS**.
+This app features a timer-based quiz system with smooth UI and real-time score tracking.
+
+---
+
+## 🚀 Features
+
+* ⏱ **5 seconds per question**
+* 🔄 Automatically moves to next question if time runs out
+* ✅ Score tracking system
+* ❌ Quiz ends after **3 consecutive unanswered questions**
+* 🎨 Modern UI with Tailwind CSS
+* ⚡ Smooth animations and responsive design
+* 🏁 Final result screen
+
+---
+
+## 🛠 Tech Stack
+
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* ⚡ Vite
+
+---
+
+## 📸 Screenshots
+
+### 🧠 Quiz Screen
+
+![Quiz Screen](./public/quiz.png)
+
+### 🎉 Result Screen
+
+![Result Screen](./public/result.png)
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ┣ Component/
+ ┃ ┣ Questions.jsx
+ ┃ ┣ Timer.jsx
+ ┃ ┣ Result.jsx
+ ┃ ┗ question.json
+ ┣ App.jsx
+ ┣ main.jsx
+ ┗ index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/varuncodev/Quiz-App.git
+
+# Navigate into the project
+cd Quiz-App
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+---
+
+## 🧠 How It Works
+
+* Each question has a **5-second timer**
+* If user selects an answer → next question
+* If user does not answer → auto next
+* After **3 consecutive skips → quiz ends**
+* Final score is displayed at the end
+
+---
+
+## 🌟 Future Improvements
+
+* 📊 Progress bar
+* 🔊 Sound effects
+* 🔁 Restart quiz button
+* 🌐 Backend integration for dynamic questions
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this project and improve it 🚀
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Author
+
+Made with ❤️ by **Varun**
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ┣ Component/
+ ┃ ┣ Questions.jsx
+ ┃ ┣ Timer.jsx
+ ┃ ┣ Result.jsx
+ ┃ ┗ question.json
+ ┣ App.jsx
+ ┣ main.jsx
+ ┗ index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/varuncodev/Quiz-App.git
+
+# Navigate into the project
+cd Quiz-App
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+---
+
+## 🧠 How It Works
+
+* Each question has a **5-second timer**
+* If user selects an answer → next question
+* If user does not answer → auto next
+* After **3 consecutive skips → quiz ends**
+* Final score is displayed at the end
+
+---
+
+## 🌟 Future Improvements
+
+* 📊 Progress bar
+* 🔊 Sound effects
+* 🔁 Restart quiz button
+* 🌐 Backend integration for dynamic questions
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this project and improve it 🚀
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Author
+
+Made with ❤️ by **Varun**
